@@ -1,19 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap');
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  margin-left: 25px;
-  margin-top:20px;
+    width: 100%;
 }
 
-nav{
-   margin-left: 25px; 
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 730px;
+    background-image: url("./image/cover.png");
+}
+
+header div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.headerNav {
+    margin-left: 190px;
+    padding-top: 36px;
+}
+
+.logo {
+    width: 106px;
+    height: 32px;
+    background-image: url("./image/Indicorp.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.headerLinks {
+    margin-left: 118px;
+}
+
+.headerLinks a {
+    margin-right: 20px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #737373;
+}
+
+.lines {
+    width: 22px;
+    height: 14px;
+    margin-left: 560px;
+    background-image: url("./image/lines.png");
+}
+
+nav {
+    margin-left: 25px;
+}
+
+.empower {
+    width: 510px;
+    height: 160px;
+    margin-top: 184px;
+    margin-left: 190px;
 }
 
 h1 {
-  color: darkblue;
-  font-weight: 600;
+    font-family: Montserrat, sans-serif;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.empower p {
+    margin-top: 36px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-bottom: 46px;
+}
+
+.headerButtons button {
+    width: 186px;
+    height: 48px;
+    border-radius: 38px;
+    margin-right: 15px;
+    cursor: pointer;
+    outline: none;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.left {
+    background-color: #FFA62B;
+    border: none;
+}
+.left a {
+    color: white;
+}
+
+.right {
+    background-color: transparent;
+    border: 1px solid #00A0C1;
+}
+
+.right a {
+    color: #00A0C1;
 }
